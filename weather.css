@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(128, 208, 255);
+}
+
+#weatherInfo{
+    margin-top:10vh;
+    width:60vw;
+    height:60vh;
+    margin-left: 18vw;
+    background-color: azure;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+}
+
+img{
+    width: 200px;
+    margin-top: 4vh;
+}
+
+#mainWeather{
+    margin-left: -2vw;
+    text-align: center;
+    margin-top: 12vh;
+    display: grid;
+    grid-template: 'location location'
+                   'weather weather'
+                   'cloudcover cloudcover'
+                   'temp feels'
+                   'wind wind'
+                   
+}
+
+#name{
+    grid-area: location;
+    font-size: 2.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#weather{
+    margin-top: 2vh;
+    grid-area: weather;
+    font-size: 1.9rem;
+ 
+}
+
+#cloudcover{
+    grid-area: cloudcover;
+    font-size: 1.2rem;
+    margin-top: 2vh;
+}
+
+#temp{
+    margin-top: 3vh;
+    grid-area: temp;
+    font-size: 2rem;
+
+}
+
+#feels_like{
+    margin-top: 3vh;
+    grid-area: feels;
+    font-size: 1.5rem;
+
+}
+
+#wind{
+    grid-area: wind;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+}
+
+
+
+#otherWeather{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+
+#temp_max{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 10vh;
+}
+
+#humidity{
+    margin-top: 4vh;
+    font-size: 1.2rem;
+}
+
+#pressure{
+    margin-top: 4vh;
+    font-size: 1.2rem;
+}
+
+#visibility{
+    margin-top: 4vh;
+    font-size: 1.2rem;
+}
+
+#sunrise{
+    font-size: 1.1rem;
+    margin-top: -4vh;
+    margin-left: 1vw;
+}
+
+#sunset{
+    font-size: 1.1rem;
+    margin-top: 5vh;
+    margin-left: 1vw;
+}
+
+
+
+
+

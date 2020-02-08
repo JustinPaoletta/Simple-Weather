@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Current Weather In Your Area</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="My First Weather App" content="Lots of Weather Info">
+    <meta name="JUSTIN PAOLETTA" content="Cool Weather">
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+
+<body>
+
+    <ul id='weatherInfo'>
+
+        <img src="https://webstockreview.net/images/clipart-rain-transparent-background-2.png">
+        <section id="mainWeather">
+            <li id="name"></li>
+            <li id="weather"></li>
+            <li id="temp"></li>
+            <li id="feels_like"></li>
+            <li id="wind"></li>
+            <li id="cloudcover"></li>
+        </section>
+        <section id="otherWeather">
+            <li id="temp_max"></li>
+            <li id="humidity"></li>
+            <li id="pressure"></li>
+            <li id="visibility"></li>
+        </section>
+        <section>
+            <li id="sunrise"></li>
+            <li id="sunset"></li>
+        </section>
+
+    </ul>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="openweatherApi.js"></script>
+
+</body>
+
+</html>
+
+<!-- <li id="coord"></li> -->
+<!-- <li id="timezone"></li> -->
